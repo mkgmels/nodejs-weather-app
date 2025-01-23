@@ -1,6 +1,3 @@
-
-
-
 const weatherForm= document.querySelector('form');
 const message1=document.querySelector('.main-content > .address-result')
 const message2=document.querySelector('.main-content > .weather-result')
