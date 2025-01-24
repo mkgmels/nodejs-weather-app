@@ -22,9 +22,9 @@ const forecast=(latitude,longitude,address,callback)=>{
     }
     else{
         
-        const {weather_descriptions,temperature}=current
+        const {weather_descriptions,temperature,wind_speed}=current
 
-        callback(null,weather_descriptions[0]+ ', '+`the temperature outside is ${temperature} degrees.`)
+        callback(null,weather_descriptions[0]+ ', '+`the temperature outside is ${temperature} degrees. The wind speed is ${wind_speed}`)
     }
     })
 }
