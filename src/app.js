@@ -41,7 +41,7 @@ app.get('',(req,res)=>{
 app.get('/about',(req,res)=>{
     res.render('../views/about.hbs',{
         title:"About",
-        name: "Fetihler sultani"
+        name: "Mohamed Khaled"
     })
 })
 
