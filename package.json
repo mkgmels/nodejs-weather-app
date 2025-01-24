@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.2",
+    "gh-pages": "^6.3.0",
     "hbs": "^4.2.0",
     "nodemon": "^3.1.9"
   }
