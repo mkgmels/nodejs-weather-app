@@ -29,7 +29,7 @@ hbs.registerPartials(partialsPath)
 //Setting up a static directory to serve
 app.use(express.static(publicDirectoryPath))
 
-const port = 3000
+const port = process.env.PORT || 3000;
 
 app.get('',(req,res)=>{
     res.render("../views/index.hbs",{
