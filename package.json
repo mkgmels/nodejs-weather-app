@@ -13,7 +13,8 @@
   "dependencies": {
     "express": "^4.21.2",
     "gh-pages": "^6.3.0",
-    "hbs": "^4.2.0"
+    "hbs": "^4.2.0",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
